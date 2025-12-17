@@ -4,7 +4,7 @@ print(np.__version__)                  # Print the installed NumPy version
 
 arr = np.array([1,2,3,4,5,6,7,8,9,10,11,12])  # Create a 1D NumPy array with values 1 to 12
 print(arr)                             # Display the array
-print(type(arr))                       # Show the type (will be <class 'numpy.ndarray'>)
+print(type(arr))                       # Show the type (will  <class 'numpy.ndarray'>)
 
 newArr = arr.reshape(4,3)              # Reshape the 1D array into a 2D array (4 rows, 3 columns)
 print(newArr)                          # Print the reshaped 2D array
